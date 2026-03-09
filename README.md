@@ -46,7 +46,7 @@ print(data['query']) ## the benchmark questions
 The base prompt we use in the paper for is included in [prompt.py](prompt.py).
 
 
-## 📊 Output Evaluation Instruction
+## 📊 Evaluation
 
 Once your model predictions on the benchmark are ready, we provide an evaluation script to compute the creative utility of model answers. In the paper we use `gpt-oss-120b' to run evaluations since they were at a larger scale. In the script you have the option of using any evaluator, as longas you specify the model name. 
 
