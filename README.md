@@ -1,7 +1,7 @@
 # CREATE
 Authors: Manya Wadhwa, Tiasa Singha Roy, Harvey Lederman,  Junyi Jessy Li, Greg Durrett
 
-[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/)
+[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/) |
 
 ## Overview
 CREATE is a benchmark designed to measure associative reasoning in models. This benchmark evaluates whether models can construct valid, diverse, and insightful paths that connect two concepts through intermediate entities or relationships.
@@ -46,9 +46,9 @@ print(data['query']) ## the benchmark questions
 
 The question answering prompt we used for all models is included in [prompt.py](prompt.py).
 
-<!-- 
+
 ## 📊 Output Evaluation Instruction
 
 Once your model predictions on the benchmark are ready, we provide an evaluation script to compute the creative utility of model answers. In the paper we use `gpt-oss-120b' to run evaluations since they were at a larger scale. In the script you have the option of using any evaluator, as longas you specify the model name. 
 
-Note the format and the required fields in your input file/HF repo in [evaluate_creative_utility.py](evaluate_creative_utility.py) -->
+Note the format and the required fields in your input file/HF repo in [evaluate_creative_utility.py](evaluate_creative_utility.py) [COMING SOON!]
