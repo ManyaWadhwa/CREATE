@@ -4,10 +4,9 @@ Authors: Manya Wadhwa, Tiasa Singha Roy, Harvey Lederman,  Junyi Jessy Li, Greg 
 [Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/) |
 
 ## Overview
-CREATE is a benchmark designed to measure associative reasoning in models. This benchmark evaluates whether models can construct valid, diverse, and insightful paths that connect two concepts through intermediate entities or relationships.
+CREATE is a benchmark designed to measure associative reasoning in models. This benchmark evaluates whether models can construct valid, diverse, and insightful paths that connect two concepts through intermediate entities or relationships. We introduce creative utility, a unified metric that captures both the quality and diversity of generated connections. 
 
-
-We introduce creative utility, a unified metric that captures both the quality and diversity of generated connections. Creative utility includes a patience parameter (p), which controls how utility is distributed across the ranked list of responses.
+<!-- Creative utility includes a patience parameter (p), which controls how utility is distributed across the ranked list of responses. -->
 
 
 Example query:
