@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## 🚀 Running CREATE
 
-Our [benchmark] (https://huggingface.co/datasets/wadhma/CREATE) is available on huggingface! The following code snippet shows how to access the benchmark. 
+Our [benchmark](https://huggingface.co/datasets/wadhma/CREATE) is available on huggingface! The following code snippet shows how to access the benchmark. 
 
 ```python 
 from datasets import load_dataset
