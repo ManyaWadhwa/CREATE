@@ -1,7 +1,7 @@
 # CREATE
 Authors: Manya Wadhwa, Tiasa Singha Roy, Harvey Lederman,  Junyi Jessy Li, Greg Durrett
 
-[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE)
+[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/)
 
 ## Overview
 CREATE is a benchmark designed to measure associative reasoning in models. This benchmark evaluates whether models can construct valid, diverse, and insightful paths that connect two concepts through intermediate entities or relationships.
