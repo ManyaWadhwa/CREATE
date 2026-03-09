@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## 🚀 Running CREATE
 
-Our benchmark (https://huggingface.co/datasets/wadhma/CREATE) is available on huggingface! The following code snippet shows how to access the benchmark. 
+Our [benchmark] (https://huggingface.co/datasets/wadhma/CREATE) is available on huggingface! The following code snippet shows how to access the benchmark. 
 
 ```python 
 from datasets import load_dataset
@@ -43,7 +43,7 @@ data = load_dataset('wadhma/CREATE')['train'].to_pandas()
 print(data['query']) ## the benchmark questions
 ```
 
-The question answering prompt we used for all models is included in [prompt.py](prompt.py).
+The base prompt we use in the paper for is included in [prompt.py](prompt.py).
 
 
 ## 📊 Output Evaluation Instruction
