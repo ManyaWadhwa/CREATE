@@ -64,7 +64,7 @@ Your input must be a `.jsonl` file or a HuggingFace dataset with at least:
 
 ### Running Evaluation
 
-The script computes **strength** and **factuality** scores, then aggregates them into the **creative utility** metric. In the paper we use `gpt-oss-120b` for evaluations; you can use any model supported by LiteLLM.
+The script computes **strength** and **factuality** scores, then aggregates them into the **creative utility** metric. In the paper we use `gpt-oss-120b` for evaluations; you can use any model supported by LiteLLM. Note: we are in the process of updating this to bespoke-curator for more efficient inference.
 
 ```bash
 python evaluate_creative_utility.py --input_file <path_or_hf_dataset> [options]
