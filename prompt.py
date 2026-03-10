@@ -1,5 +1,16 @@
-
 def get_prompt(query, entity_a, entity_b, rel_b):
+    """
+    Build a prompt for generating connection paths between two entities.
+
+    Args:
+        query: User query context.
+        entity_a: Head entity (path must start here).
+        entity_b: Tail entity (path must end here).
+        rel_b: Required relationship for the final triple ending at entity_b.
+
+    Returns:
+        Formatted prompt string for path generation.
+    """
     prompt = f"""Query: {query}
 
 Task: Identify how two real-world entities are connected by producing MANY connection paths. A connection path is a sequence of factual triples (head, relationship, tail) forming a continuous chain that begins with one entity and ends with a required target condition.
