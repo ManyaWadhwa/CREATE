@@ -1,0 +1,20 @@
+# Requirements for evaluate_hf_creative_utility.py
+# Uses eval_support.py for all support code (self-contained).
+
+# Core (eval_support + main script)
+numpy>=1.24.0
+pandas>=2.0.0
+datasets>=2.14.0
+huggingface-hub>=0.20.0
+
+# eval_support: marginal_utility (creative utility metric)
+# - sentence_transformers for path embeddings
+# - scikit-learn for cosine_distances
+sentence-transformers>=2.0.0
+scikit-learn>=1.0.0
+
+# eval_support: LLM inference (strength/factuality evaluation)
+# - litellm (primary, supports OpenAI + vLLM)
+# - openai (fallback when litellm not installed)
+openai>=1.0.0
+litellm>=1.0.0
