@@ -1,7 +1,7 @@
 # CREATE
 Authors: Manya Wadhwa, Tiasa Singha Roy, Harvey Lederman,  Junyi Jessy Li, Greg Durrett
 
-[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/) |
+[Benchmark🤗](https://huggingface.co/datasets/wadhma/CREATE) | [Leaderboard](https://manyawadhwa.github.io/projects/create/) | [Paper](https://arxiv.org/abs/2603.09970)
 
 ## Overview
 CREATE is a benchmark designed to measure associative reasoning in models. This benchmark evaluates whether models can construct valid, diverse, and insightful paths that connect two concepts through intermediate entities or relationships. We introduce creative utility, a unified metric that captures both the quality and diversity of generated connections. 
@@ -91,3 +91,13 @@ python evaluate_creative_utility.py --input_file predictions.jsonl --model_name 
 ```
 
 The script prints a summary including mean creative utility, average strength, average factuality, and evaluation cost. See [evaluate_creative_utility.py](evaluate_creative_utility.py) for full details.
+
+**Citation** 
+```
+@InProceedings{Wadhwa-Et-Al-2026:CREATE,
+  title = {CREATE: Testing LLMs for Associative Creativity},
+  author = {Manya Wadhwa and Tiasa Singha Roy and Harvey Lederman and Junyi Jessy Li and Greg Durrett},
+  booktitle = {arXiv},
+  year = {2026},
+}
+```
